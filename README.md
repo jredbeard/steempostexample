@@ -26,7 +26,7 @@ Article text:<br/>
 ```
 * Add a script line to pull in the steem-js library inline.
 ```
-<script src="http://cdn.steemjs.com/lib/latest/steem.min.js"></script>
+<script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
 ```
 * Create a function that uses the steem-js function `steem.broadcast.comment()` to make a post. As far as the blockchain is concerned, a new article/post is the same as a comment, you actually use the same function for both.
 ```
